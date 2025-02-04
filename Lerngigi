@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LernGigi - DaF/DaZ & Rechentherapie</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; text-align: center; }
+        header { background: #4CAF50; color: white; padding: 20px; font-size: 24px; }
+        section { margin: 20px; padding: 20px; background: white; border-radius: 8px; }
+        a.button { background: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .contact-form { max-width: 400px; margin: auto; text-align: left; }
+        label, input, textarea { display: block; width: 100%; margin-bottom: 10px; }
+        input, textarea { padding: 8px; }
+        button { background: #4CAF50; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>LernGigi - Deutsch & Rechentherapie</header>
+    
+    <section>
+        <h2>Willkommen!</h2>
+        <p>Ich bin Agnes, DaF/DaZ-Lehrerin und Rechentherapeutin für Kinder & Erwachsene.</p>
+        <p>Hier findest du Lernmaterialien und kannst mich für Sprach- und Rechenförderung online und in Berlin vor Ort kontaktieren.</p>
+    </section>
+    
+    <section>
+        <h2>Kostenlose Lernmaterialien</h2>
+        <p><a href="#" class="button">Lernmaterial herunterladen</a></p>
+    </section>
+    
+    <section>
+        <h2>Kontakt</h2>
+        <form class="contact-form" action="https://formspree.io/f/mzzdgloz" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Deutsch-Einstufungstest</h2>
+        <p><a href="#" class="button">Test jetzt machen</a></p>
+    </section>
+</body>
+</html>
